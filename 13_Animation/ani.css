@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.animation-container {
+    text-align: center;
+    position: relative;
+}
+
+.animated-text {
+    font-size: 2em;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.moving-box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    animation: moveRight 4s linear infinite alternate;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes moveRight {
+    0% { left: 0; }
+    100% { left: 300px; }
+}

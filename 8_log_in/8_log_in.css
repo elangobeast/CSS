@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.inner{
+    
+    width: 400px;
+    background-color:red;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 9px 9px 9px rgb(212, 179, 16);
+    
+}
+.inner > h1{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+
+}
+.inner >p{
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.inner > form > label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.inner form > input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.inner > form > button{
+    background-color: darkolivegreen;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+
+}
+.inner > .footer{
+    display: flex;
+}
+.inner > .footer >#p1{
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+.inner > .footer> #p2{
+    color: rgb(221, 255, 0);
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-style: italic;
+}

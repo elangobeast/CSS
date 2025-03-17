@@ -1,0 +1,106 @@
+.con1 h1 {                       /* !  1. DESCENDANT SELECTOR*/
+    background-color: black; /* ! */
+    color: red;
+}
+
+.con2{
+    background-color: red;
+}
+
+.con3 > h1{                     /*! 2. Direct Child Selector */
+    background-color: hotpink;
+}
+
+.section1 > #btn1{
+
+    background-color: red;
+
+}
+
+
+.section1 > #btn1:hover{
+
+    background-color: green;
+}
+
+
+
+.con4 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.con4:hover {
+    background-color: grey;
+}
+
+.section1 > #btn2{
+
+    background-color: olivedrab;
+}
+
+.section1 > #btn2:hover{
+
+    background-color: brown;
+}
+
+.section1 > #btn2:active{
+
+    background-color: blue;
+}
+
+/*!  nth child selector */
+
+ul > li:nth-child(2n+1){
+    color: red;
+    background-color: yellow;
+}
+
+/*!  Pseudo Element SELECTOR*/
+
+.con5 p::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+.con5 p::first-line{
+    background-color: pink;
+}
+
+.con5 > p::selection{
+    background-color: violet;
+    color: red;
+
+}
+.con6{
+    background-color: gray;
+    height: 130px;
+    width: 250px;
+}
+.con6 > h1{
+    color: rgb(8, 140, 255);
+
+}
+.con6 > h1::before{
+    content: "$";
+
+}
+.con6 > h1::after{
+    content:"*";
+}
+
+.con6 > ol > li:nth-child(2n)::marker{
+    color: red;
+}
+.con5 p::first-letter{
+    background-color: pink;
+}
+   form > input[type="email"]{
+    background-color: red;
+   }
+
+
+   a[target="_self"]{
+
+    color:green;
+   }

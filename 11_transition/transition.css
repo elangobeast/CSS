@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer >.inner{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: all 1s ease-in 2s;
+}
+/*.outer >.inner:hover{
+    background-color: yellow;
+    transform: translateX(300px)
+}
+    */
+.outer >.inner2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(44, 150, 74);
+    transition: all 1s ease-in 1s;
+}
+.outer >.inner2:hover{
+   /* transform: rotate(360deg);
+    transform: translateY(-200px);
+    transform: translate(-200px,200px);
+    transform: scale(2);
+    */
+    transform: skew(180deg);
+    
+}

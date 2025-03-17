@@ -1,0 +1,43 @@
+h1{
+    background-color: rgb(31, 21, 21);
+    color: rgb(235, 8, 8);
+}
+
+#heading2{
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+
+#p1{
+    background-color: brown;
+}
+#section2{
+    background-color: rgb(77, 255, 0)
+}
+/*! 3. Class Selector */
+
+.container{
+    background-color: antiquewhite;
+}
+
+/*! 4. Universal Selector */
+
+*{
+    font-style: oblique;
+    color: rgb(31, 21, 21);
+    /*! the color wont change*/
+}
+
+.container2{
+    background-color: royalblue;
+
+}
+
+/*!group selector */
+
+#para2, h3, h4{
+    background-color: seagreen;
+}
+
+
+

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:pink;
+    display: flex;
+    justify-content: end;
+    height: 99px;
+    align-items: center;
+}
+.right > ul{
+    display: flex;
+}
+.right > ul > li {
+    list-style: none;
+     margin: 10px;
+    font-size: large;
+    color: azure;
+}
+.welcome{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-self: center;
+}
+.wel{
+    justify-self: center;
+}
+
+
+
